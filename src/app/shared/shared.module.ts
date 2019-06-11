@@ -10,6 +10,7 @@ import { SliderComponent } from './slider/slider.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFountPageComponent } from './not-fount-page/not-fount-page.component';
+import { BreadCrumbComponent } from './bread-crumb/bread-crumb.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NotFountPageComponent } from './not-fount-page/not-fount-page.component
     SliderComponent,
     BannerComponent,
     FooterComponent,
-    NotFountPageComponent
+    NotFountPageComponent,
+    BreadCrumbComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +29,8 @@ import { NotFountPageComponent } from './not-fount-page/not-fount-page.component
     HeaderComponent,
     SliderComponent,
     BannerComponent,
-    FooterComponent
+    FooterComponent,
+    BreadCrumbComponent
   ]
 })
 export class SharedModule { }

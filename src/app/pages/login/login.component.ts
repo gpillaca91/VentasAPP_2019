@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare function init_main_js();
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',

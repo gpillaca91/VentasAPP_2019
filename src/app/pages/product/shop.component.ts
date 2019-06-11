@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare function fnBuscar();
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShopComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit() {
+    fnBuscar();
   }
 
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare function init_main_js();
+declare function init_slick();
 
 @Component({
   selector: 'app-principal',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit() {
+    init_main_js();
+    init_slick();
   }
 
 }
